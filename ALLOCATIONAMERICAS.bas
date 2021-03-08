@@ -2,6 +2,7 @@ Attribute VB_Name = "ALLOCATIONAMERICAS"
 Sub ALLOCATIONAMERICAS()
 
 '                                                       ALOCANDO
+    'by Joao Costa
 
 Windows(planaloca).Activate
 Sheets(trade).Select
@@ -147,11 +148,11 @@ ThisWorkbook.Save
 
 If erro <> "" Then
 
-MsgBox ("!!! ERRO !!! A(s) escala(s) a seguir n„o foi(foram) atualizada(s), pois n„o foram encontrados dados no booking list:" & Chr(13) & Chr(13) & erro)
+MsgBox ("!!! ERRO !!! A(s) escala(s) a seguir n√£o foi(foram) atualizada(s), pois n√£o foram encontrados dados no booking list:" & Chr(13) & Chr(13) & erro)
 
 Else
 
-MsgBox ("AlocaÁ„o Finalizada.")
+MsgBox ("Aloca√ß√£o Finalizada.")
 
 End If
 
